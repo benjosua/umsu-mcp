@@ -1,0 +1,3 @@
+[submodule "umsu-web"]
+	path = umsu-web
+	url = https://github.com/wo/tpg

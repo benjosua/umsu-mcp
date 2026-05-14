@@ -1,0 +1,26 @@
+{
+  "name": "umsu-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for the UMSU tree argument checker",
+  "scripts": {
+    "check": "tsc --noEmit -p tsconfig.json",
+    "smoke": "tsx src/smoke.ts",
+    "start": "tsx src/index.ts",
+    "start:stdio": "tsx src/index.ts --transport stdio",
+    "start:http": "tsx src/index.ts --transport http"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "zod": "^4.3.6"
+  }
+}
