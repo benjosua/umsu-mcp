@@ -37,3 +37,7 @@ http://127.0.0.1:3337/mcp
 npm run check
 npm run smoke
 ```
+
+## License
+
+GPL-3.0-only. The bundled `umsu-web` submodule is the original UMSU checker licensed under GNU GPL v3; this MCP wrapper is distributed under the same license.
